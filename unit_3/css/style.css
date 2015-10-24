@@ -1,0 +1,53 @@
+h1 { 
+	color: #FF6347;
+	font-family: "New York", serif;
+	font-size: 55px;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+body {
+	background-color: #FFFFFF; 
+	color: #808080;
+}
+img { 
+	height: auto;
+	width: auto;
+	max-width: 650px;
+	max-height: 500px;
+	float: left;
+}
+nav ul li {
+	display: inline;
+	padding: 25px;
+	color: white;
+	background-color: #F5F5F5;
+	width: 550px;
+	height: 35px;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	list-style-type: none;
+}
+li {
+	display: inline;
+	list-style-type: none;
+	float: left;
+	padding: 25px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+}
+#nav {
+	display: inline;
+	padding: 10px;
+	color: black;
+	background-color: #FF6347;
+	width: 550px;
+	height: 100px;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	list-style-type: none;
+}
