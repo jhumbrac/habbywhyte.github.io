@@ -3,9 +3,11 @@ h1 {
 	font-family: "New York", serif;
 	font-size: 55px;
 	text-align: center;
+	margin: 0;
 }
 h3 {
 	text-align: center;
+	margin-top: -5px;
 }
 body {
 	background-color: #FFFFFF; 
@@ -13,41 +15,49 @@ body {
 }
 img { 
 	height: auto;
-	width: auto;
+	width: 48%;
 	max-width: 650px;
 	max-height: 500px;
 	float: left;
 }
-nav ul li {
-	display: inline;
-	padding: 25px;
-	color: white;
-	background-color: #F5F5F5;
-	width: 550px;
-	height: 35px;
-	font-size: 16px;
-	font-family: Tahoma, sans-serif;
+ul {
+	display: inline-block;
+	margin: 0 auto;
 	text-align: center;
-	list-style-type: none;
 }
 li {
-	display: inline;
+	display: inline-block;
 	list-style-type: none;
 	float: left;
 	padding: 25px;
 	text-align: center;
 	font-size: 16px;
+	margin-left: 10px;
 	font-family: Verdana, sans-serif;
 }
 #nav {
-	display: inline;
+	display: block;
 	padding: 10px;
-	color: black;
+	color: white;
 	background-color: #FF6347;
-	width: 550px;
-	height: 100px;
 	font-size: 16px;
 	font-family: Tahoma, sans-serif;
 	text-align: center;
 	list-style-type: none;
+	margin: 0 auto;
+}
+p {
+	float: left;
+	display: inline-block;
+	width: 48%;
+	position: relative;
+	top: 100px;
+	text-align: left;
+	left: 30px;
+}
+.email {
+	clear: both;
+	position: relative;
+	left: 670px;
+	bottom: 200px;
 }
