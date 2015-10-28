@@ -1,0 +1,64 @@
+h1 { 
+	color: #FF6347;
+	font-family: "Fredericka the Great", serif;
+	font-size: 55px;
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	font-family: "Homemade Apple", cursive;
+	text-align: center;
+	margin-top: -5px;
+}
+body {
+	background-color: #FFFFFF; 
+	color: #808080;
+}
+img { 
+	height: auto;
+	width: 48%;
+	max-width: 650px;
+	max-height: 500px;
+	float: left;
+}
+ul {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	padding: 25px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 10px;
+	font-family: Verdana, sans-serif;
+}
+#nav {
+	display: block;
+	padding: 10px;
+	color: white;
+	background-color: #FF6347;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 auto;
+}
+p {
+	float: left;
+	display: inline-block;
+	width: 48%;
+	position: relative;
+	top: 100px;
+	text-align: left;
+	left: 30px;
+}
+.email {
+	clear: both;
+	position: relative;
+	left: 670px;
+	bottom: 200px;
+}
