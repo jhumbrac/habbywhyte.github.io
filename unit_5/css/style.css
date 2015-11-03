@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -90,5 +91,4 @@ section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
-}
 }
