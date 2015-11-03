@@ -1,3 +1,8 @@
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
 h1 { 
 	color: #FF6347;
 	font-family: "Fredericka the Great", serif;
@@ -10,9 +15,14 @@ h3 {
 	text-align: center;
 	margin-top: -5px;
 }
-body {
+/*body {
 	background-color: #FFFFFF; 
-	color: #808080;
+	color: #808080;*/
+}
+.class {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 img { 
 	height: auto;
@@ -21,6 +31,7 @@ img {
 	max-height: 500px;
 	float: left;
 }
+
 ul {
 	display: inline-block;
 	margin: 0 auto;
@@ -46,6 +57,14 @@ li {
 	text-align: center;
 	list-style-type: none;
 	margin: 0 auto;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+.bio {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 p {
 	float: left;
@@ -61,4 +80,15 @@ p {
 	position: relative;
 	left: 670px;
 	bottom: 200px;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
 }
