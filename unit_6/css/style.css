@@ -3,6 +3,22 @@ header {
 	border: 1px black solid;
 	padding: 20px;
 }
+nav {
+	display: block;
+	padding: 10px;
+	color: white;
+	background-color: #FF6347;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px;
+}
+footer {
+	border: 1px black solid;
+	padding: 20px;
+}
 h1 { 
 	color: #FF6347;
 	font-family: "Fredericka the Great", serif;
@@ -17,9 +33,24 @@ h3 {
 	margin-top: -5px;
 
 }
-/*body {
-	background-color: #FFFFFF; 
-	color: #808080;*/
+ul {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+	float: left;
+	padding: 25px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 10px;
+	font-family: Verdana, sans-serif;
+}
+p {
+	float: left;
+	width: 48%;
+	text-align: left;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -35,33 +66,7 @@ h3 {
 	display: block;
 }
 
-ul {
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-}
-li {
-	display: inline-block;
-	list-style-type: none;
-	float: left;
-	padding: 25px;
-	text-align: center;
-	font-size: 16px;
-	margin-left: 10px;
-	font-family: Verdana, sans-serif;
-}
-nav {
-	display: block;
-	padding: 10px;
-	color: white;
-	background-color: #FF6347;
-	font-size: 16px;
-	font-family: Tahoma, sans-serif;
-	text-align: center;
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 10px;
-}
+
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -89,23 +94,12 @@ nav {
 .bio {
 	padding: 20px;
 }
-p {
-	float: left;
-	display: inline-block;
-	width: 48%;
-	position: relative;
-	top: 100px;
-	text-align: left;
-	left: 30px;
-}
+
 .email {
 	clear: both;
 	position: relative;
 	left: 670px;
 	bottom: 200px;
 }
-footer {
-	border: 1px black solid;
-	padding: 20px;
-}
+
 
