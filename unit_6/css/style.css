@@ -15,6 +15,11 @@ nav {
 	margin: 0 auto;
 	padding: 10px;
 }
+article {
+	float:left;
+	padding:1em;
+	width:66.66%;
+}
 footer {
 	border: 1px black solid;
 	padding: 20px;
@@ -48,8 +53,6 @@ li {
 	font-family: Verdana, sans-serif;
 }
 p {
-	float: left;
-	width: 48%;
 	text-align: left;
 }
 .clearfix:after {
@@ -61,9 +64,11 @@ p {
 	height: 0;
 }
 #one { 
-	height: auto;
-	width: auto;
-	display: block;
+	background:url();
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:center;
+	height: 50vh;
 }
 
 
@@ -88,18 +93,17 @@ p {
 }
 .posts {
 	float: left;
-	width: 35%;
-
+	padding:1em;
+	width: 33.33%;
 }
 .bio {
-	padding: 20px;
+	float:left;
+	padding: 1em;
+	width:33.33%;
 }
-
-.email {
-	clear: both;
-	position: relative;
-	left: 670px;
-	bottom: 200px;
+.blogtext {
+	float:left;
+	padding:1em;
+	width:66.66%;
 }
-
 
