@@ -1,0 +1,111 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+header {
+	border: 1px black solid;
+	padding: 20px;
+}
+h1 { 
+	color: #FF6347;
+	font-family: "Fredericka the Great", serif;
+	font-size: 55px;
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	color: #484848;
+	font-family: "Homemade Apple", cursive;
+	text-align: center;
+	margin-top: -5px;
+
+}
+/*body {
+	background-color: #FFFFFF; 
+	color: #808080;*/
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#one { 
+	height: auto;
+	width: auto;
+	display: block;
+}
+
+ul {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	padding: 25px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 10px;
+	font-family: Verdana, sans-serif;
+}
+nav {
+	display: block;
+	padding: 10px;
+	color: white;
+	background-color: #FF6347;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+.posts {
+	float: left;
+	width: 35%;
+
+}
+.bio {
+	padding: 20px;
+}
+p {
+	float: left;
+	display: inline-block;
+	width: 48%;
+	position: relative;
+	top: 100px;
+	text-align: left;
+	left: 30px;
+}
+.email {
+	clear: both;
+	position: relative;
+	left: 670px;
+	bottom: 200px;
+}
+footer {
+	border: 1px black solid;
+	padding: 20px;
+}
+
