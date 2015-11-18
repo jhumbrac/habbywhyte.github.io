@@ -48,6 +48,10 @@ li {
 p {
 	text-align: left;
 }
+h2 {
+	font-family: "Old Standard TT", serif;
+	color: #585858;
+}
 .clearfix:after {
 	visibility: hidden;
 	display: block;
