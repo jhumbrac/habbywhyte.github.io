@@ -1,0 +1,104 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family:tahoma, verdana, sans-serif;
+	font-size:16px;
+}
+header {
+	padding: 1.5em;
+}
+nav {
+	display: block;
+	padding: .5em;
+	color: white;
+	background-color: #FF6347;
+	text-align: center;
+	list-style-type: none;
+	margin: 0 auto;
+}
+section#blog {
+	float:left;
+	padding:1em;
+	width:66.66%;
+}
+h1 { 
+	color: #FF6347;
+	font-family: "Fredericka the Great", serif;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 0;
+}
+h3 {
+	color: #585858;
+	font-family: "Homemade Apple", cursive;
+	text-align: center;
+	margin-top: -.25em;
+}
+ul {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+li {
+	list-style-type: none;
+	float: left;
+	padding: 25px;
+	text-align: center;
+	margin-left: 10px;
+}
+p {
+	text-align: left;
+}
+h2 {
+	font-family: "Old Standard TT", serif;
+	color: #585858;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#one { 
+	background: url("http://cdn.insing.com/business/b2/34/12/00/michelangelos-restaurant_770x575_fillbg_2d3ee00ab3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vh;
+}
+.wrapper {
+	max-width:75em;
+	margin:auto;
+}
+.posts {
+	float: left;
+	padding:1em;
+	width: 50%;
+}
+/*#postone {
+	width: 900px;
+	margin: 10px 0;
+}*/
+.bio {
+	float:left;
+	padding: 1em;
+	width:33.33%;
+	border-left: thin solid #585858;
+}
+.blogtext {
+	float:left;
+	padding:1em;
+	width:50%;
+}
+@media screen and (max-width:1104px) {
+	.wrapper{
+		width: 70%;
+
+	}
+}
+@media screen and (max-width:1104px) {
+	#blog{
+		float:none;
+		}
+}
