@@ -33,11 +33,7 @@ h3 {
 	text-align: center;
 	margin-top: -.25em;
 }
-ul {
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-}
+
 li {
 	list-style-type: none;
 	float: left;
@@ -45,12 +41,36 @@ li {
 	text-align: center;
 	margin-left: 10px;
 }
+label{
+	display:none;
+	padding:20px 0 20px 20px;
+}
+#input{
+	display:none;
+}
+#menu {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+div{
+	width:20px;
+	border:none;
+	height:3px
+	background-color:white;
+	margin:0 0 1px;
+	padding:0;
+	display:block;
+}
 p {
 	text-align: left;
 }
-h2 {
+h4 {
 	font-family: "Old Standard TT", serif;
 	color: #585858;
+}
+footer {
+	padding: 2em;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -93,12 +113,43 @@ h2 {
 }
 @media screen and (max-width:1104px) {
 	.wrapper{
-		width: 70%;
+		width: 80%;
+	}
+
+	.blogtext{
+		float: none;
+		display: block;
+		width: 100%
+	}
+	
+	.posts{
+		float: none;
+		display: block;
+		width: 100%;
 
 	}
+	
 }
-@media screen and (max-width:1104px) {
-	#blog{
-		float:none;
-		}
+@media screen and (max-width:849px) {
+	nav {
+		display:block;
+	}	
+	
+	#input{
+	display:none;
+}
+	
+	label{
+		display:block;
+	}
+
+	#menu{
+		display:none;
+	}
+
+	#input:checked + #menu{
+		display:block;
+	}
+
+
 }
