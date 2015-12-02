@@ -1,26 +1,32 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	font-family:tahoma, verdana, sans-serif;
+	font-family: "News Cycle", arial, sans-serif;
 	font-size:16px;
+	color: #484848;
 }
-header {
+/*header {
 	padding: 1.5em;
+}*/
+#header img {
+	width: 3800%;
+	height: auto;
 }
-nav {
+#menu {
+	width: 100%;
 	display: block;
-	padding: .5em;
+	padding: 2em;
 	color: white;
 	background-color: #FF6347;
 	text-align: center;
 	list-style-type: none;
-	margin: 0 auto;
+	margin: 0 auto 1.2em;
 }
 section#blog {
 	float:left;
 	padding:1em;
 	width:66.66%;
 }
-h1 { 
+/*h1 { 
 	color: #FF6347;
 	font-family: "Fredericka the Great", serif;
 	font-size: 3.5em;
@@ -33,13 +39,27 @@ h3 {
 	text-align: center;
 	margin-top: -.25em;
 }
-
+*/
+h2 {
+	color: #585858;
+	font-family: "News Cycle", sans-serif;
+}
+h4 {
+	color: #585858;
+	font-family: "Old Standard TT", serif;
+}
+.read-more-btn{
+	background: #FF6347;
+	border-radius: 1em;
+	color: white;
+}
 li {
+	display: block;
 	list-style-type: none;
 	float: left;
-	padding: 25px;
+	padding: 4px;
 	text-align: center;
-	margin-left: 10px;
+	margin-left: 2px;
 }
 label{
 	display:none;
@@ -48,16 +68,11 @@ label{
 #input{
 	display:none;
 }
-#menu {
-	display: inline-block;
-	margin: 0 auto;
-	text-align: center;
-}
-div{
+div {
 	width:20px;
 	border:none;
 	height:3px
-	background-color:white;
+	background-color: white;
 	margin:0 0 1px;
 	padding:0;
 	display:block;
@@ -65,12 +80,10 @@ div{
 p {
 	text-align: left;
 }
-h4 {
-	font-family: "Old Standard TT", serif;
-	color: #585858;
-}
 footer {
-	padding: 2em;
+	clear: both;
+	float: left;
+	padding: 8em;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -111,9 +124,9 @@ footer {
 	padding:1em;
 	width:50%;
 }
-@media screen and (max-width:1104px) {
+/*@media screen and (max-width:1104px) {
 	.wrapper{
-		width: 80%;
+		width: 85%;
 	}
 
 	.blogtext{
@@ -153,3 +166,4 @@ footer {
 
 
 }
+*/
