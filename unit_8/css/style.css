@@ -7,19 +7,35 @@ body {
 /*header {
 	padding: 1.5em;
 }*/
-#header img {
-	width: 3800%;
+header img {
+	display: block;
+	width: 550px;
+	margin: auto;
 	height: auto;
 }
 #menu {
 	width: 100%;
 	display: block;
-	padding: 2em;
+	padding: 1em;
 	color: white;
 	background-color: #FF6347;
 	text-align: center;
 	list-style-type: none;
-	margin: 0 auto 1.2em;
+	margin: 1em auto;
+}
+li {
+	display: inline-block;
+	list-style-type: none;
+	/*float: left;*/
+	padding: 0 .5em;
+	text-align: center;
+	/*margin-left: 2px;*/
+}
+#menu li:hover {
+	background-color: white;
+	color: #FF6347;
+	width: auto;
+	height: 100%;
 }
 section#blog {
 	float:left;
@@ -52,14 +68,10 @@ h4 {
 	background: #FF6347;
 	border-radius: 1em;
 	color: white;
+	padding: .3em;
 }
-li {
-	display: block;
-	list-style-type: none;
-	float: left;
-	padding: 4px;
-	text-align: center;
-	margin-left: 2px;
+hr {
+	border-top: 1px dotted #484848;
 }
 label{
 	display:none;
@@ -68,7 +80,7 @@ label{
 #input{
 	display:none;
 }
-div {
+/*div {
 	width:20px;
 	border:none;
 	height:3px
@@ -76,7 +88,7 @@ div {
 	margin:0 0 1px;
 	padding:0;
 	display:block;
-}
+}*/
 p {
 	text-align: left;
 }
@@ -114,17 +126,18 @@ footer {
 	margin: 10px 0;
 }*/
 .bio {
+	margin-top: 2.2em;
 	float:left;
 	padding: 1em;
 	width:33.33%;
-	border-left: thin solid #585858;
+	border-left: double #585858;
 }
 .blogtext {
 	float:left;
 	padding:1em;
 	width:50%;
 }
-/*@media screen and (max-width:1104px) {
+@media screen and (max-width:1104px) {
 	.wrapper{
 		width: 85%;
 	}
@@ -166,4 +179,3 @@ footer {
 
 
 }
-*/
